@@ -3,7 +3,6 @@ import { View, Text, Button } from 'react-native';
 import { globalStyles } from '../styles/global';
 
 export default function ReviewDetails({ navigation }) {
-  console.log('navigation: ', navigation);
   return (
     <View style={globalStyles.container}>
       <Text>{navigation.getParam('title')}</Text>
